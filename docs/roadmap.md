@@ -1,50 +1,65 @@
-# 🗺️ Roadmap — WealthSmart
+﻿# Roadmap — WealthSmart
 
-> Dedicación: 20-30 hrs/semana (paralelo a ScoreIA)
+> Dedicacion: 20-30 hrs/semana (paralelo a ScoreIA)
 > Capital disponible: $25M COP
 > Objetivo mes 6: MVP con primeros usuarios reales
+> Principio de esta version: WealthSmart crece por la calidad del producto - SEO, alianzas B2B y boca a boca. La fundadora permanece anonima. Foco actual: construir la herramienta, no promocionarla.
 
-## Fase 1 — Validación y Prototipo (Semanas 1-4)
-
-| Semana | Tarea | Responsable | Estado |
-|--------|-------|-------------|--------|
-| 1 | Configurar herramientas: Notion/GitHub, Figma | Shey | ✅ En progreso |
-| 1 | Crear perfil de Valentina | Shey + Claude | ✅ Hecho |
-| 1 | Primer contenido redes sociales | Shey + Claude | 🔄 En progreso |
-| 1 | Configurar agente de contenido semanal | Claude | ✅ Hecho |
-| 2 | Explorar sandbox ACH Colombia / Open Finance | Shey | ⏳ Pendiente |
-| 2 | Diseñar flujo principal en Figma (onboarding + dashboard) | Shey | ⏳ Pendiente |
-| 3 | Prototipo Figma completo (clickeable) | Shey | ⏳ Pendiente |
-| 3 | Clasificador Python de transacciones v1 | Shey | ⏳ Pendiente |
-| 4 | Usar el prototipo como si fuera la app real (2 meses) | Shey | ⏳ Pendiente |
-| 4 | Definir modelo de precios final | Shey + Claude | ⏳ Pendiente |
-
-## Fase 2 — MVP (Semanas 5-12)
+## Fase 0 — Fundamentos y Validacion (Semanas 1-4)
 
 | Semana | Tarea | Responsable | Estado |
 |--------|-------|-------------|--------|
-| 5-6 | Backend: API conexión Open Finance + categorización | Shey | ⏳ Pendiente |
-| 7-8 | Motor de recomendaciones con Claude AI | Shey | ⏳ Pendiente |
-| 9-10 | App móvil React Native — pantallas principales | Shey | ⏳ Pendiente |
-| 11 | Beta cerrada — 10 usuarios reales | Manuel + Shey | ⏳ Pendiente |
-| 12 | Ajustes post-beta + preparar lanzamiento | Shey | ⏳ Pendiente |
+| 1 | Configurar herramientas: GitHub, Figma | Shey | Hecho |
+| 1 | Crear perfil de Valentina | Shey + Claude | Hecho |
+| 1 | Configurar Google Search Console y Analytics | Shey | Hecho |
+| 1 | Registrar dominio getwealthsmart.co | Shey | Hecho |
+| 2 | Realizar 6-8 primeras entrevistas de usuario | Shey | En progreso |
+| 2 | Explorar sandbox ACH Colombia / Open Finance | Shey | Pendiente |
+| 3 | 6-8 entrevistas adicionales + sintesis de patrones | Shey | Pendiente |
+| 3 | Investigar keywords SEO principales | Shey | Pendiente |
+| 4 | Definir propuesta de valor final | Shey + Claude | Pendiente |
+| 4 | Publicar primer articulo SEO (blog, sin marca personal) | Shey + Claude | Pendiente |
 
-## Fase 3 — Lanzamiento y Seed (Semanas 13-24)
+## Fase 1 — Diseno y Desarrollo Tecnico (Semanas 5-16)
 
 | Semana | Tarea | Responsable | Estado |
 |--------|-------|-------------|--------|
-| 13 | Lanzamiento público + revelar WealthSmart en redes | Manuel + Shey | ⏳ Pendiente |
-| 14-16 | Conseguir primeros 100 usuarios de pago | Manuel | ⏳ Pendiente |
-| 17-20 | Preparar deck para inversores seed | Shey + Claude | ⏳ Pendiente |
-| 21-24 | Rondas con inversores — objetivo $200M COP | Shey | ⏳ Pendiente |
+| 5-8 | Wireframes y prototipo clicable en Figma | Shey | Pendiente |
+| 9-12 | Test con usuarios reales + PRD + investigacion tecnica Open Finance | Shey | Pendiente |
+| 13 | Arquitectura tecnica definitiva (FastAPI + PostgreSQL + React Native) | Shey | Pendiente |
+| 14 | Clasificador de gastos (Python, objetivo >85% accuracy) | Shey | Pendiente |
+| 15 | Financial Health Score (algoritmo 0-100) | Shey | Pendiente |
+| 16 | Testing y refinamiento de modelos con datos reales | Shey | Pendiente |
 
-## Constitución legal
+## Fase 2 — MVP y Beta (Semanas 17-20)
+
+| Semana | Tarea | Responsable | Estado |
+|--------|-------|-------------|--------|
+| 17 | Integracion sandbox Open Finance | Shey | Pendiente |
+| 18 | Motor de recomendaciones con Claude API | Shey | Pendiente |
+| 19 | Demo web funcional (Flask/Streamlit) | Shey | Pendiente |
+| 20 | Beta cerrado con 10 usuarios | Shey + Manuel | Pendiente |
+
+## Fase 3 — Lista de Espera y Preparacion de Capital (Semanas 21-26)
+
+| Semana | Tarea | Responsable | Estado |
+|--------|-------|-------------|--------|
+| 21 | Landing page profesional + lista de espera | Shey | Pendiente |
+| 22-23 | Alianzas B2B (Manuel) + campana de prensa sin cara visible | Manuel | Pendiente |
+| 24-25 | Pitch deck + busqueda de capital semilla | Shey | Pendiente |
+| 26 | Evaluacion de Fase 0-2 y decision de arranque de Fase 1 de negocio | Shey | Pendiente |
+
+## Nota sobre contenido y visibilidad
+
+La estrategia de adquisicion no depende de la visibilidad personal de la fundadora. Los canales activos son SEO/blog, alianzas con empleadores, boca a boca y prensa especializada (ver contenido-redes.md para el estado del contenido). Mientras el producto esta en construccion, no hay prioridad en publicar contenido de marca personal - el foco es 100% producto.
+
+## Constitucion legal
 
 - [ ] Constituir SAS (Shey redacta los estatutos)
 - [ ] RUT WealthSmart
 - [ ] Cuenta bancaria empresarial
-- [ ] Registro marca WealthSmart — SIC Colombia
+- [ ] Registro marca WealthSmart - SIC Colombia
 
 ---
 
-*Última actualización: Julio 2026*
+*Ultima actualizacion: Julio 2026*
