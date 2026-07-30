@@ -1,49 +1,54 @@
-# 🌱 WealthSmart
+# WealthSmart
 
-> Asesoría financiera personal con IA para Colombia — construida sobre Open Finance (Decreto 0368 de 2026).
+> Asesoria financiera personal con IA para Colombia - construida sobre Open Finance (Decreto 0368 de 2026).
 
-## ¿Qué es WealthSmart?
+**Dominio:** [getwealthsmart.co](https://getwealthsmart.co)
 
-WealthSmart es una app que conecta con tus cuentas bancarias vía Open Finance y te dice exactamente qué hacer con tu plata esta semana. Sin jerga. Sin juicio. Con IA.
+## Que es WealthSmart?
+
+WealthSmart es una app que conecta con tus cuentas bancarias via Open Finance y te dice exactamente que hacer con tu plata esta semana. Sin jerga. Sin juicio. Con IA.
 
 ## El problema
 
-Los colombianos con ingresos medios-altos no tienen acceso a asesoría financiera personalizada. Los asesores son para ricos. Las apps genéricas no entienden el contexto colombiano. El resultado: plata que desaparece sin que nadie sepa por qué.
+Los colombianos con ingresos medios-altos no tienen acceso a asesoria financiera personalizada. Los asesores son para ricos. Las apps genericas no entienden el contexto colombiano. El resultado: plata que desaparece sin que nadie sepa por que.
 
-## La solución
+## La solucion
 
-Una IA que analiza tus movimientos reales, entiende tu situación y te da un plan accionable — no teoría general.
+Una IA que analiza tus movimientos reales, entiende tu situacion y te da un plan accionable - no teoria general.
 
 ## Equipo
 
 | Nombre | Rol | Perfil |
 |--------|-----|--------|
-| Shey Colina | CEO + CTO | Abogada, Máster Derecho Internacional (U. Barcelona), Data Science (Carlemany 2027) |
-| Manuel | CCO | ~2 años en ventas sector salud |
+| Shey Colina | CEO + CTO | Abogada, Master Derecho Internacional (U. Barcelona), Data Science (Carlemany 2027) |
+| Manuel | CCO | ~2 anos en ventas sector salud |
 
-## Stack tecnológico (planeado)
+## Stack tecnologico
 
-- Open Finance API — ACH Colombia sandbox
-- Python / FastAPI — backend
-- React Native — app móvil
-- Claude AI — motor de recomendaciones
+- **App (iOS + Android + Web):** Expo (React Native + React Native Web) + NativeWind — una sola base de codigo para las tres plataformas, desde el prototipo hasta produccion
+- **Backend:** Python + FastAPI + PostgreSQL
+- **Motor de recomendaciones:** Claude API
+- **Datos bancarios:** Open Finance — ACH Colombia sandbox
 
 ## Estado actual
 
-🟡 Pre-producto — validación de mercado y prototipo Figma
+Pre-producto - construyendo el prototipo funcional directamente en el stack final (sin herramientas de mockup desechables)
 
 ## Estructura del repositorio
 
 ```
 wealthsmart/
-├── docs/              # Documentación del proyecto
-│   ├── valentina.md   # Perfil de usuario primario
-│   ├── roadmap.md     # Plan semana a semana
-│   └── entrevistas.md # Guía de entrevistas de validación
-├── src/               # Código (próximamente)
-└── design/            # Links a Figma (próximamente)
+├── app/               # App Expo (React Native + Web) - iOS, Android, Web
+├── backend/           # API FastAPI
+├── docs/              # Documentacion del proyecto
+│   ├── valentina.md       # Perfil de usuario primario
+│   ├── roadmap.md         # Plan semana a semana
+│   ├── entrevistas.md     # Guia de entrevistas de validacion
+│   ├── objeciones-faq.md  # Objeciones y respuestas
+│   ├── contenido-redes.md # Estado de marketing/contenido
+│   └── setup-cuentas.md   # Registro de cuentas y credenciales (IDs publicos)
 ```
 
 ---
 
-*Capital inicial: $25M COP | Ciudad: Medellín, Colombia*
+*Capital inicial: $25M COP | Ciudad: Medellin, Colombia*
