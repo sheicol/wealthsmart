@@ -1,54 +1,32 @@
-# WealthSmart
+# WealthSmart — Personal Finance Prototype
 
-> Asesoria financiera personal con IA para Colombia - construida sobre Open Finance (Decreto 0368 de 2026).
+Preproducto de finanzas personales para Colombia, desarrollado por Sheilyn Colina. **Estado: estructura inicial; no es una aplicación financiera operativa.**
 
-**Dominio:** [getwealthsmart.co](https://getwealthsmart.co)
+## Qué contiene hoy
 
-## Que es WealthSmart?
+- Pantalla inicial en Expo / React Native.
+- API FastAPI con ruta raíz y comprobación de salud.
+- Documentación de investigación de usuarios y roadmap.
 
-WealthSmart es una app que conecta con tus cuentas bancarias via Open Finance y te dice exactamente que hacer con tu plata esta semana. Sin jerga. Sin juicio. Con IA.
+## Qué permanece previsto
 
-## El problema
+Conexión bancaria, almacenamiento de movimientos, recomendaciones con IA, autenticación y validación con usuarios. No se presentan como integraciones funcionales ni como capacidades verificadas.
 
-Los colombianos con ingresos medios-altos no tienen acceso a asesoria financiera personalizada. Los asesores son para ricos. Las apps genericas no entienden el contexto colombiano. El resultado: plata que desaparece sin que nadie sepa por que.
+## Ejecutar localmente
 
-## La solucion
+- [Instrucciones de la app](app/README.md)
+- [Instrucciones del backend](backend/README.md)
 
-Una IA que analiza tus movimientos reales, entiende tu situacion y te da un plan accionable - no teoria general.
+No introducir credenciales ni datos bancarios reales en este prototipo. No hay una demo pública verificada enlazada desde este README.
 
-## Equipo
+## Estructura
 
-| Nombre | Rol | Perfil |
-|--------|-----|--------|
-| Shey Colina | CEO + CTO | Abogada, Master Derecho Internacional (U. Barcelona), Data Science (Carlemany 2027) |
-| Manuel | CCO | ~2 anos en ventas sector salud |
+`app/`: interfaz · `backend/`: API · `docs/`: investigación y planificación.
 
-## Stack tecnologico
+Los documentos históricos bajo `OneDrive/Escritorio/` no forman parte del código ejecutable. Requieren revisión individual antes de reorganizarlos o retirar documentos del historial público.
 
-- **App (iOS + Android + Web):** Expo (React Native + React Native Web) + NativeWind — una sola base de codigo para las tres plataformas, desde el prototipo hasta produccion
-- **Backend:** Python + FastAPI + PostgreSQL
-- **Motor de recomendaciones:** Claude API
-- **Datos bancarios:** Open Finance — ACH Colombia sandbox
+## Portafolio relacionado
 
-## Estado actual
+[IBKR Portfolio Analytics](https://github.com/sheicol/ibkr-quant-portfolio-analysis) · [SheyQuant Research Lab](https://github.com/sheicol/quant-research-portfolio)
 
-Pre-producto - construyendo el prototipo funcional directamente en el stack final (sin herramientas de mockup desechables)
-
-## Estructura del repositorio
-
-```
-wealthsmart/
-├── app/               # App Expo (React Native + Web) - iOS, Android, Web
-├── backend/           # API FastAPI
-├── docs/              # Documentacion del proyecto
-│   ├── valentina.md       # Perfil de usuario primario
-│   ├── roadmap.md         # Plan semana a semana
-│   ├── entrevistas.md     # Guia de entrevistas de validacion
-│   ├── objeciones-faq.md  # Objeciones y respuestas
-│   ├── contenido-redes.md # Estado de marketing/contenido
-│   └── setup-cuentas.md   # Registro de cuentas y credenciales (IDs publicos)
-```
-
----
-
-*Capital inicial: $25M COP | Ciudad: Medellin, Colombia*
+Prototipo educativo y de validación de producto. No ejecuta operaciones ni ofrece asesoría financiera personalizada.
